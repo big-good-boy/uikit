@@ -1,0 +1,13 @@
+.marker {
+	position: relative;
+}
+
+.marker:before {
+	content: "new";
+	position: absolute;
+	top: 6px;
+	left: -35px;
+	color: red;
+	font-size: 16px;
+	transform: rotate(-16deg);
+}
